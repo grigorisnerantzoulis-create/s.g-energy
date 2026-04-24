@@ -1,1 +1,0 @@
-document.querySelectorAll('a[href]').forEach(a=>{if(a.href===location.href)a.classList.add('active')});
