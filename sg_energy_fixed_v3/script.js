@@ -1,0 +1,1 @@
+document.querySelectorAll('.menu a').forEach(a=>{if(a.getAttribute('href')===location.pathname.split('/').pop()||(!location.pathname.split('/').pop()&&a.getAttribute('href')==='index.html'))a.classList.add('active')});
